@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tres Valles - Veracruz</title>
+    <style type="text/css">
+        /* Estilos generales */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f4f9f4;
+            color: #2d3436;
+            line-height: 1.6;
+        }
+
+        /* Encabezado principal */
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Barra de navegación y botones */
+        .navegacion {
+            background-color: #1b5e20;
+            padding: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .boton {
+            background-color: #f57f17;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .boton:hover {
+            background-color: #e65100;
+        }
+
+        /* Contenedor principal */
+        .contenedor {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Estilos para cada sección */
+        .seccion {
+            background-color: white;
+            margin-bottom: 40px;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .seccion h2 {
+            color: #2e7d32;
+            margin-bottom: 20px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #c8e6c9;
+        }
+
+        .seccion ul {
+            padding-left: 25px;
+            margin-top: 10px;
+        }
+
+        .seccion ul li {
+            margin-bottom: 12px;
+        }
+
+        /* Estilos especiales para la pastelería */
+        .datos-pasteleria {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            margin-top: 15px;
+        }
+
+        .bloque {
+            background-color: #f1f8e9;
+            padding: 18px;
+            border-radius: 6px;
+        }
+
+        .bloque h3 {
+            color: #33691e;
+            margin-bottom: 10px;
+        }
+
+        /* Estilos para las fuentes */
+        .fuentes-lista {
+            word-break: break-all;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .fuentes-lista a {
+            color: #2e7d32;
+            text-decoration: none;
+        }
+
+        .fuentes-lista a:hover {
+            text-decoration: underline;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        /* Diseño para pantallas pequeñas */
+        @media (max-width: 768px) {
+            .datos-pasteleria {
+                grid-template-columns: 1fr;
+            }
+
+            .navegacion {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .boton {
+                width: 200px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado y presentación -->
+    <header>
+        <h1> Tres Valles, Veracruz</h1>
+        <p>En el centro de Veracruz, Tres Valles se destaca por su tradición, naturaleza y gente con mucho respeto. Su nombre hace referencia a los tres valles que ofrece paisajes verdes, historia y cultura, además de rincones históricos. Aquí encontrarás sabores tradicionales y espacios para realizar actividades físicas o vivir aventuras, convirtiéndose en el lugar ideal para conocer su patrimonio, convivir o alejarse de la rutina diaria.</p>
+    </header>
+
+    <!-- Barra de navegación con botones -->
+    <div class="navegacion">
+        <a href="#lugares" class="boton">LUGARES DE INTERÉS</a>
+        <a href="#economia" class="boton">ECONOMÍA</a>
+        <a href="#pasteleria" class="boton">PASTELERÍA DE LA ABUELA</a>
+        <a href="#fuentes" class="boton">FUENTES</a>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="contenedor">
+
+        <!-- Sección: Lugares de Interés -->
+        <section id="lugares" class="seccion">
+          <h2>Lugares de Interés</h2>
+            <ul>
+                <li><strong>Parque:</strong> El Parque Miguel Hidalgo en Tres Valles es un espacio recreativo y cultural que ha sido objeto de renovación y transformación.            </li>
+            </ul>
+            <ul>
+              <li><strong>Iglesias:</strong> La Iglesia San Jorge y la Parroquia Sagrado Corazón de Jesús son ejemplos destacados de la rica tradición religiosa de Tres Valles, Veracruz. Ambas ofrecen un espacio de encuentro y devoción para sus comunidades, con eventos especiales y celebraciones que reflejan la fe y el espíritu comunitario del lugar.            </li>
+            </ul>
+            <ul>
+              <li><strong>Unidad Deportiva:</strong> La Unidad Deportiva Municipal Chavo Neme se encuentra en la Colonia Adolfo Ruiz Cortines, y es un lugar de interés para los deportistas y aficionados al deporte en la región.</li>
+            </ul>
+       
+            <ul>
+              <li><strong>Tanque de Agua:</strong> El Tanque Elevado de Agua Potable es una unidad económica registrada desde 2014, dedicada a la captación, tratamiento y suministro de agua por el sector público. Se ubica en Calle América, Col. San Francisco, Los Naranjos, Tres Valles, Veracruz de Ignacio de la Llave, C.P. 95360.</li>
+            </ul>
+            <ul>
+              <li><strong>Infraestructura Vial:</strong> Tres Valles cuenta con carreteras federales y estatales que facilitan la movilidad y el traslado dentro de toda la región.</li>
+            </ul>
+        </section>
+
+        <!-- Sección: Economía -->
+        <section id="economia" class="seccion">
+            <h2>Economía</h2>
+            <p>Tres Valles cuenta con una economía estable, basada principalmente en la agricultura y la agroindustria. Su principal fuente de ingresos es el cultivo de caña de azúcar; sin embargo, también se siembran otros productos como arroz, maíz, frijol, piña y sorgo. Además, existen grandes extensiones dedicadas al cultivo de mango, lo que permite la comercialización de esta fruta durante su temporada de cosecha.</p>
+        
+      </section>
+
+        <!-- Sección: Pastelería de la Abuela -->
+        <section id="pasteleria" class="seccion">
+            <h2>Pastelería de la Abuela</h2>
+            
+            <div class="datos-pasteleria">
+                <div class="bloque">
+                    <h3>Servicios y Productos</h3>
+                    <p>Elaboramos pasteles de diferentes tipos y sabores: tres leches, queso y chocolate, con rellenos de flan, chocolate, coco y más. También contamos con servicio de apartado para que asegures tu pedido con anticipación.</p>
+
+                    <h3>Competencia</h3>
+                    <p>Nuestros principales competidores son: Pastelería Lulú, Pastelería México y Pastelería Grissel.</p>
+
+                    <h3>Beneficios de comprar con nosotros</h3>
+                    <ul>
+                        <li>Alta calidad en todos nuestros productos</li>
+                        <li>Sabor delicioso y auténtico</li>
+                        <li>Precios accesibles</li>
+                        <li>Atención al cliente de excelencia</li>
+                        <li>Productos frescos</li>
+                        <li>Posibilidad de personalizar tus pedidos</li>
+                        <li>Responsabilidad y compromiso en la entrega</li>
+                    </ul>
+                </div>
+
+                <div class="bloque">
+                    <h3>Proyección y Presupuesto</h3>
+                    <p>Se estima que el negocio tendrá un crecimiento del 20% en un periodo de dos años, aumentando el número de clientes y la demanda. El presupuesto asignado para la campaña de promoción es de $1,500.</p>
+
+                    <h3>Público Objetivo</h3>
+                    <p>Está dirigido a todas las personas que necesitan pasteles de distintas temáticas y estilos, y que buscan calidad y un sabor inigualable en sus compras.</p>
+
+                    <h3>Misión y Visión</h3>
+                    <p>Brindar un servicio bien hecho y con la mejor calidad en nuestros productos, actuando siempre con responsabilidad y compromiso con nuestros clientes.</p>
+
+                    <h3>Contáctanos</h3>
+                    <p>Teléfono: <strong>288 115 60 58</strong><br>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección: Fuentes -->
+        <section id="fuentes" class="seccion">
+            <h2>Fuentes de Información</h2>
+            <ul class="fuentes-lista">
+                <li><a href="https://tse1.mm.bing.net/th/id/OIP.HHrE8jCaW830VtISIQTN_QHaHZ?rs=1&pid=ImgDetMain&o=7&rm=3" target="_blank">https://tse1.mm.bing.net/th/id/OIP.HHrE8jCaW830VtISIQTN_QHaHZ?rs=1&pid=ImgDetMain&o=7&rm=3</a></li>
+                <li><a href="https://veracruz.quadratin.com.mx/www/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-29-at-19.40.18-1160x700.jpeg" target="_blank">https://veracruz.quadratin.com.mx/www/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-29-at-19.40.18-1160x700.jpeg</a></li>
+                <li><a href="https://th.bing.com/th/id/R.f293f37049ce66ae7d444b55f1421aa4?rik=VonSLyVL%2bQTyrw&pid=ImgRaw&r=0" target="_blank">https://th.bing.com/th/id/R.f293f37049ce66ae7d444b55f1421aa4?rik=VonSLyVL%2bQTyrw&pid=ImgRaw&r=0</a></li>
+                <li><a href="https://tse4.mm.bing.net/th/id/OIP.crz2DidE3P_wVB2QdMgP_QHaB3?rs=1&pid=ImgDetMain&o=7&rm=3" target="_blank">https://tse4.mm.bing.net/th/id/OIP.crz2DidE3P_wVB2QdMgP_QHaB3?rs=1&pid=ImgDetMain&o=7&rm=3</a></li>
+                <li><a href="https://web.whatsapp.com/17cca354-2916-44d8-a7a5-66449b33c66d" target="_blank">https://web.whatsapp.com/17cca354-2916-44d8-a7a5-66449b33c66d</a></li>
+            </ul>
+        </section>
+
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+      <p>Tres Valles, Veracruz</p>
+    </footer>
+    <h2 style="color:pink;">
+Contador de visitas
+</h2>
+
+<h1 id="numero-visitas" style="color:#2e7d32;">
+0
+</h1>
+
+<script>
+if (localStorage.getItem("visitas") === null) {
+    localStorage.setItem("visitas", "1");
+} else {
+    let visitas = parseInt(localStorage.getItem("visitas"));
+    visitas++;
+    localStorage.setItem("visitas", visitas);
+}
+
+document.getElementById("numero-visitas").innerText = localStorage.getItem("visitas");
+</script>
+
+</body>
+</html>
